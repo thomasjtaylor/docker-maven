@@ -1,5 +1,7 @@
-# Docker file for CentOS with OpenJDK11 and Maven3
-FROM infotechsoft/java:openjdk-11
+# Docker file for CentOS with OpenJDK and Maven
+ARG BASE_IMAGE=infotechsoft/java:openjdk-11
+
+FROM ${BASE_IMAGE}
 
 LABEL maintainer="Thomas J. Taylor <thomas@infotechsoft.com>"
 

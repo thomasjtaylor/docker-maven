@@ -1,0 +1,2 @@
+infotechsoft/java:openjdk-11
+infotechsoft/java:openjdk-8
